@@ -1,0 +1,70 @@
+ bai3 {
+
+cài đặt thư viện cho cả hai máy có thể giống nhau hay còn gọi package.jason
+----> npm init 
+
+
+Dua code len git reponcua
+
+git init
+
+git add .
+
+git commit -m 'init project'
+git remote add origin https://github.com/omodtung/nodejs_blog.git
+git push origin master
+ }
+
+
+
+ // let getHomepage = (req, res) => {
+//     //logic
+//     let data = [];
+//     connection.query(
+//         'SELECT * FROM `users` ',
+//         function (err, results, fields) {
+//             results.map((row) => {
+//                 data.push({
+//                     id: row.id,
+//                     email: row.email,
+//                     address: row.address,
+//                     firstName: row.firstName,
+//                     lastName: row.lastName
+//                 })
+
+//             });
+
+//             return res.render('test/index.ejs', { dataUser: JSON.stringify(data) })
+
+//         })
+
+
+// }
+16:2
+
+   <% for(let i=0; i < dataUser.length; i++) { %>
+                        <tr>
+                            <td>
+                                <%= dataUser[i].id %>
+                            </td>
+                            <td>
+                                <%= dataUser[i].firstName %>
+                            </td>
+                            <td>
+                                <%= dataUser[i].lastName %>
+                            </td>
+                            <td>
+                                <a href="/detail/user/<%= dataUser[i].id %>" target="_blank">Detail</a>
+                                <button type="button">Edit</button>
+                                <button type="button">Delete</button>
+                            </td>
+                        </tr>
+
+                
+
+                
+                npm i app-root-path
+
+
+                req,res
+                next(err)
