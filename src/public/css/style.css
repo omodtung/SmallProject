@@ -67,3 +67,9 @@ display : block;
     margin-top: 15px;
     cursor    : pointer;
 }
+.w3-container h2
+{
+    text-align: center;
+    margin:10px;
+    color: red;
+}
